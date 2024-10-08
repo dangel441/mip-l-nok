@@ -7,6 +7,8 @@
 \usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
 
@@ -23,7 +25,7 @@
 	{\small \texttt{xvanek@stuba.sk}}
 	}
 
-\date{\small 1. oktober 2024} % upravte
+\date{\small 30. september 2024} % upravte
 
 
 
@@ -38,7 +40,8 @@
 
 
 \section{Úvod}
-
+\includegraphics[scale=0.5]{Kolobeh_vody.png}
+\includegraphics[scale=0.5]{Vznik_pisomky.png}
 Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
 
 Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
@@ -59,6 +62,16 @@ Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný pláva
 \caption{Rozhodujúci argument.}
 \label{f:rozhod}
 \end{figure*}
+
+\[
+\begin{bmatrix}
+11 & 12 & 13 & 14 \\
+21 & 22 & 23 & 24 \\
+31 & 31 & 33 & 34 \\
+41 & 42 & 43 & 44 \\
+51 & 52 & 53 & 54
+\end{bmatrix}
+\]
 
 
 
@@ -112,7 +125,10 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
 \section{Doplnený odstavec}
 
 \section{Záver} \label{zaver} % prípadne iný variant názvu
-
+\begin{wrapfigure}{r}{0.4\textwidth} % 'r' je pre pravú stranu, 'l' pre ľavú
+  \centering
+  \includegraphics[width=0.38\textwidth]{STU-FIIT-ncb.png}
+\end{wrapfigure}
 
 
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
