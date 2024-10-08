@@ -1,6 +1,6 @@
 % Metódy inžinierskej práce
 
-\documentclass[10pt,twoside,slovak,a4paper]{coursepaper}
+\documentclass[10pt,twoside,slovak,a4paper]{article}
 
 \usepackage[slovak]{babel}
 %\usepackage[T1]{fontenc}
@@ -34,14 +34,14 @@
 \maketitle
 
 \begin{abstract}
-\ldots
+V oblasti medicíny hrá veľkú rolu ľudský faktor. Lekárom nestačia len teoretické poznatky, nadobudnuté počas štúdia. Doktor najmä praxou získava skúsenosti a učí sa na svojich chybách. Postupom času, vyvíjaním nových technológií a zväčšovaním dostupnosti technológií pribúdajú faktory, ktoré treba pri rozhodnutiach zohľadniť. V súčasnej informačnej spoločnosti, v ktorej neustále narastá množstvo dostupných dát, prichádzajú na pomoc odporúčacie systémy. Tie vedia spracovať väčšie množstvo dát a v kratšom časovom úseku ako človek. Vďaka nim by sa mohlo znížiť množstvo chýb spojených s ľudským faktorom. Či už v diagnóze pacienta alebo predpisovaní liekov na základe dostupných informácii. Cieľom tohto článku je poskytnutie prehľadu možných aplikácii odporúčacích systémov v tejto sfére. V článku sa pokúsim priblížiť využitie odporúčacích systémov v zdravotníctve na jednej z najrozšírenejších chorôb – Diabetes. Je taktiež dôležité vytýčiť, že odporúčacie systémy neslúžia ako náhrada kvalifikovaného odborníka, ale len ako podpora rozhodovacieho procesu. Doktor sa tak následne môže utvrdiť vo svojom názore alebo získať iný prístup k problematike, ktorý môže zvážiť a za normálnych okolností by mu nemusel napadnúť.  Hovoríme tak o spolupráci umelej inteligencie a človeka, ktorá využíva ľudské prednosti ako intuíciu, morálnosť a zároveň ťaží z kapacít ktoré ponúka umelá inteligencia. Spolu s prehľadom takýchto systémov sa taktiež pokúsim predostrieť možné nástrahy pri využívaní odporúčacích systémov. 
 \end{abstract}
 
 
 
 \section{Úvod}
-\includegraphics[scale=0.5]{Kolobeh_vody.png}
-\includegraphics[scale=0.5]{Vznik_pisomky.png}
+\includegraphics[scale=0.3]{Kolobeh_vody.png}
+\includegraphics[scale=0.4]{Vznik_pisomky.png}
 Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
 
 Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
@@ -86,14 +86,12 @@ Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dok
 
 Niekedy treba uviesť zoznam:
 
-\begin{itemize}
-\item jedna vec
-\item druhá vec
-	\begin{itemize}
-	\item x
-	\item y
-	\end{itemize}
-\end{itemize}
+
+\begin{equation}
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2} =  \frac{1(2+1)}{2}+\frac{2(2+2)}{2}+\frac{3(2+3)}{2}+ ...
+ + \frac{(n-1)(2+(n-1))}{2}+\frac{n(2+n)}{2}
+\end{equation}
+
 
 Ten istý zoznam, len číslovaný:
 
@@ -125,7 +123,7 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
 \section{Doplnený odstavec}
 
 \section{Záver} \label{zaver} % prípadne iný variant názvu
-\begin{wrapfigure}{r}{0.4\textwidth} % 'r' je pre pravú stranu, 'l' pre ľavú
+\begin{wrapfigure}{r}{0.4\textwidth}
   \centering
   \includegraphics[width=0.38\textwidth]{STU-FIIT-ncb.png}
 \end{wrapfigure}
