@@ -40,6 +40,40 @@ V oblasti medicíny hrá veľkú rolu ľudský faktor. Lekárom nestačia len te
 
 
 \section{Úvod}
+\includegraphics[scale=0.3]{Kolobeh_vody.png}
+\includegraphics[scale=0.4]{Vznik_pisomky.png}
+Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
+
+Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
+Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
+Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
+Záverečné poznámky prináša časť~\ref{zaver}.
+
+
+
+\section{Nejaká časť} \label{nejaka}
+
+Z obr.~\ref{f:rozhod} je všetko jasné. 
+
+\begin{figure*}[tbh]
+\centering
+%\includegraphics[scale=1.0]{diagram.pdf}
+Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
+\caption{Rozhodujúci argument.}
+\label{f:rozhod}
+\end{figure*}
+
+\[
+\begin{bmatrix}
+11 & 12 & 13 & 14 \\
+21 & 22 & 23 & 24 \\
+31 & 31 & 33 & 34 \\
+41 & 42 & 43 & 44 \\
+51 & 52 & 53 & 54
+\end{bmatrix}
+\]
+
+
 
 \section{Iná časť} \label{ina}
 
@@ -49,6 +83,27 @@ Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dok
 
 
 \subsection{Nejaké vysvetlenie} \label{ina:nejake}
+
+Niekedy treba uviesť zoznam:
+
+
+\begin{equation}
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2} =  \frac{1(2+1)}{2}+\frac{2(2+2)}{2}+\frac{3(2+3)}{2}+ ...
+ + \frac{(n-1)(2+(n-1))}{2}+\frac{n(2+n)}{2}
+\end{equation}
+
+
+Ten istý zoznam, len číslovaný:
+
+\begin{enumerate}
+\item jedna vec
+\item druhá vec
+	\begin{enumerate}
+	\item x
+	\item y
+	\end{enumerate}
+\end{enumerate}
+
 
 \subsection{Ešte nejaké vysvetlenie} \label{ina:este}
 
@@ -60,7 +115,18 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
 \section{Dôležitá časť} \label{dolezita}
 
 
+
+
 \section{Ešte dôležitejšia časť} \label{dolezitejsia}
+
+
+\section{Doplnený odstavec}
+
+\section{Záver} \label{zaver} % prípadne iný variant názvu
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \centering
+  \includegraphics[width=0.38\textwidth]{STU-FIIT-ncb.png}
+\end{wrapfigure}
 
 
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
