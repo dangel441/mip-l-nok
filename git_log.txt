@@ -1,0 +1,60 @@
+commit 4d9cbb9578902cca73e878549399212e6f1d58c3
+Author: dangel441 <50116539+dangel441@users.noreply.github.com>
+Date:   Tue Oct 15 18:44:42 2024 +0200
+
+    SCRUM-23,23 zaloha+vycistenie sablony
+
+commit 4debe275430659185f7da2be1a23aed69283266f
+Author: dangel441 <50116539+dangel441@users.noreply.github.com>
+Date:   Tue Oct 8 19:32:43 2024 +0200
+
+    Abstrakt, vzorec
+
+commit 137df7ded6708d8ace5803d40eadc63ecc6e3867
+Author: dangel441 <50116539+dangel441@users.noreply.github.com>
+Date:   Tue Oct 8 19:09:47 2024 +0200
+
+    Matice ,Logo , Diagramy
+
+commit 3b861aa636db4e839bd2ef7076b5cf511d68578d
+Merge: 6a4493b 60e750e
+Author: dangel441 <50116539+dangel441@users.noreply.github.com>
+Date:   Tue Oct 8 19:02:14 2024 +0200
+
+    Merge branch 'Master' of https://github.com/dangel441/mipClanok into Master
+
+commit 6a4493b45bb3ab7c8ff3d2ae3874c7386291d3d6
+Author: dangel441 <50116539+dangel441@users.noreply.github.com>
+Date:   Tue Oct 8 18:28:18 2024 +0200
+
+    Diagramy
+
+commit 60e750eba459cdcf63d6ebeae0bf9c3b17aaec9f
+Merge: 167e689 ccc8770
+Author: Daniel <50116539+dangel441@users.noreply.github.com>
+Date:   Tue Oct 1 19:18:58 2024 +0200
+
+    Merge pull request #2 from dangel441/predbeznaVerzia
+    
+    Merge pull request #1 from dangel441/Master
+
+commit ccc8770746c611bbadce48017e2accc82f3458c8
+Merge: 8cef0b9 167e689
+Author: Daniel <50116539+dangel441@users.noreply.github.com>
+Date:   Tue Oct 1 19:15:21 2024 +0200
+
+    Merge pull request #1 from dangel441/Master
+    
+    druhy testik
+
+commit 167e689fc4961f84d868dd55bdca0087f2062dc3
+Author: dangel441 <50116539+dangel441@users.noreply.github.com>
+Date:   Tue Oct 1 19:11:52 2024 +0200
+
+    druhy testik
+
+commit 8cef0b9833c99bc7894cab65ee5c53b009a062f2
+Author: dangel441 <50116539+dangel441@users.noreply.github.com>
+Date:   Tue Oct 1 18:39:08 2024 +0200
+
+    PrvyCommit
